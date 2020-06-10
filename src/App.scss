@@ -1,0 +1,142 @@
+/* .temp {
+  width: 100vw;
+  height: 100vh;
+}
+
+#danmaku-screen {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+} */
+/* 
+.refont, div, p {
+  font-family: Arial, Helvetica, "Droid Sans", "Times New Roman", 
+  "Microsoft YaHei UI", "Microsoft YaHei", "微软雅黑", 
+  STXihei, "华文细黑", 
+  san-serif;
+} */
+
+.is-padding {
+  padding: 20px;
+}
+
+.shadowed {
+  box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+}
+
+.split {
+  height: 20px;
+}
+
+.half-width{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.three-quarter-width{
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article p {
+  line-height: 35px;
+}
+
+.is-white {
+  color: white;
+}
+
+.site-map div {
+  line-height: 40px;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.transparent {
+  background-color: transparent;
+}
+
+.main-frame {
+  min-height: 800px;
+}
+
+.indent-two {
+  text-indent: 2em;
+}
+
+.almost-width {
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.news-image {
+  width: 50vw;
+}
+
+.news-avatar{
+  width: 128px;
+}
+
+.gone {
+  display: none;
+}
+
+#danmaku-container {
+  height: 70vh;
+  width: 100vw;
+  position: fixed;
+  top: 50px;
+  left: 0;
+}
+
+.flrow {
+  display: flex;
+  flex-direction: row;
+}
+
+.is-white::placeholder {
+  color: white;
+}
+
+// #danmaku-screen {
+//   text-shadow: 1px 1px 1px rgba($color: gray, $alpha: 0.75);
+// }
+
+.center-main-button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.center-main-button button {
+  width: 30vw;
+}
+
+.main-return-button {
+  margin-bottom: 20px;
+}
+
+// .home {
+//   min-height: 600px;
+// }
+
+@media only screen and (max-width: 768px) {
+  .main-return-button {
+    margin-top: 5px;
+  }
+}
+
+.horizontal {
+  flex-direction: column;
+}
+
+.padding-bottom {
+  padding-bottom: 10px;
+}

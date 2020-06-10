@@ -1,0 +1,26 @@
+.level-wrapper {
+    max-width: 45vw;
+    margin: 0 auto;
+}
+
+.big-button{
+    font-size: 300%;
+    width: 200px;
+    max-width: 30vw;
+    height: 200px;
+    max-height: 30vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: #0074D9;
+    color: #001f3f;
+}
+
+.red {
+    background-color: #FF4136;
+    color: #85144b;
+}

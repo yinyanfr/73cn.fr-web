@@ -1,0 +1,52 @@
+[
+    {
+        "name": "name",
+        "icon": "user",
+        "chs": "姓名"
+    },
+    {
+        "name": "gender",
+        "icon": "portrait",
+        "chs": "性别"
+    },
+    {
+        "name": "passport",
+        "icon": "passport",
+        "chs": "护照号码"
+    },
+    {
+        "name": "date",
+        "icon": "calendar-day",
+        "chs": "出发日期"
+    },
+    {
+        "name": "depart",
+        "icon": "plane-departure",
+        "chs": "出发地"
+    },
+    {
+        "name": "arrive",
+        "icon": "plane-arrival",
+        "chs": "到达地"
+    },
+    {
+        "name": "via",
+        "icon": "globe",
+        "chs": "途径地"
+    },
+    {
+        "name": "destination",
+        "icon": "map-marked-alt",
+        "chs": "最终抵达城市"
+    },
+    {
+        "name": "tel",
+        "icon": "phone-alt",
+        "chs": "电话号码"
+    },
+    {
+        "name": "remarks",
+        "icon": "info",
+        "chs": "备注"
+    }
+]

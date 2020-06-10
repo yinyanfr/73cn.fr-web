@@ -1,0 +1,27 @@
+.cov * {
+    margin-bottom: 1em;
+}
+
+dt {
+    font-weight: bold;
+}
+
+.image-width {
+    width: inherit;
+    max-width: 600px;
+}
+
+.cov-index-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.cov-index {
+    width: inherit;
+    max-width: 800px;
+}
+
+.cov-video {
+    width: 80vw;
+    height: 45vw;
+}

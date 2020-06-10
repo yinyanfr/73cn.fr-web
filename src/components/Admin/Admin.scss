@@ -1,0 +1,21 @@
+.admin-danmaku-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    height: 75vh;
+}
+
+.admin-danmaku {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 150%;
+
+    padding: 5px;
+
+    text-shadow: 1px 1px 1px rgba($color: gray, $alpha: 0.75);
+
+}

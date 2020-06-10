@@ -1,0 +1,9 @@
+[
+    { "value": "catery", "label": "餐饮" },
+    { "value": "grocery", "label": "生活用品采购" },
+    { "value": "shopping", "label": "购物" },
+    { "value": "travel", "label": "旅费" },
+    { "value": "tax", "label": "缴费" },
+    { "value": "income", "label": "收入" },
+    { "value": "other", "label": "其他" }
+]

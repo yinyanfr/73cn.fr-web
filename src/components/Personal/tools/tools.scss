@@ -1,0 +1,114 @@
+.toolbox-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.space-between {
+    display: flex;
+    justify-content: center;
+}
+
+.toolbox {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+
+    // padding: 30px;
+}
+
+.tool{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-right: 10vw;
+    margin-bottom: 10px;
+}
+
+.tool:last-child {
+    margin-right: 0;
+}
+
+.tool-icon {
+    width: 100px;
+    height: 100px;
+
+    background-color: gray;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 300%;
+    color: wheat;
+
+    margin-bottom: 5px;
+}
+
+.tool-icon:hover {
+    box-shadow: 2px 2px 5px 1px rgba($color: gray, $alpha: 0.25);
+}
+
+.panel-tabs a {
+    font-size: 125%;
+}
+
+.panel-block {
+    font-size: 125%;
+}
+
+.panel-block span i {
+    font-size: 125%;
+}
+
+@media only screen and (max-width: 768px){
+
+    .toolbox-wrapper {
+        display: block;
+        justify-content: space-between;
+    }
+
+    .toolbox {
+        padding: 0;
+        margin-bottom: 20px;
+
+        width: 100%;
+
+        justify-content: space-around left;
+        align-items: space-between;
+    }
+
+    .tool {
+        margin-bottom: 25px;
+        margin-right: 0;
+    }
+
+    .tool-icon {
+        width: 15vw;
+        height: 15vw;
+
+        font-size: 8vw;
+
+        box-shadow: 2px 2px 5px 1px rgba($color: gray, $alpha: 0.5);
+    }
+
+    .tool-name {
+        font-size: 75%;
+    }
+}
+
+.compte-card {
+    margin-bottom: 20px;
+}
+
+.danger-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+// * {
+//     outline: 1px solid black;
+// }

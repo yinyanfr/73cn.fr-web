@@ -1,0 +1,17 @@
+.trip-icons {
+    font-size: 125%;
+}
+
+.trip-icons a {
+    margin-right: 10px;
+}
+
+.trip-icons a:last-child {
+    margin-right: 0;
+}
+
+.twin-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
